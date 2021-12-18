@@ -160,53 +160,37 @@ return (
      </div>
 
      <div className="container-step-2">
-       <div className="col-1">Step 2:</div>
-       <div className="col-2">
-         <p>Specify Format</p>
+          <div className="col-1">Step 2:</div>
+          <div className="col-2">
+            <p>Specify Format</p>
 
-         <div>
-           <span>File Type</span>
-           <select name="pets" id="pet-select">
-             <option value="">--Please choose an option--</option>
-             <option value="dog">Dog</option>
-             <option value="cat">Cat</option>
-             <option value="hamster">Hamster</option>
-             <option value="parrot">Parrot</option>
-             <option value="spider">Spider</option>
-             <option value="goldfish">Goldfish</option>
-           </select>
-         </div>
-         <div>
-           <span>Character Encoding</span>
-           <select name="pets" id="pet-select">
-             <option value="">--Please choose an option--</option>
-             <option value="dog">Dog</option>
-             <option value="cat">Cat</option>
-             <option value="hamster">Hamster</option>
-             <option value="parrot">Parrot</option>
-             <option value="spider">Spider</option>
-             <option value="goldfish">Goldfish</option>
-           </select>
-         </div>
-         <div>
-           <span>Delimiter</span>
-           <select name="pets" id="pet-select">
-             <option value="">--Please choose an option--</option>
-             <option value="dog">Dog</option>
-             <option value="cat">Cat</option>
-             <option value="hamster">Hamster</option>
-             <option value="parrot">Parrot</option>
-             <option value="spider">Spider</option>
-             <option value="goldfish">Goldfish</option>
-           </select>
-         </div>
-         <div>
-           <span>Has Header</span>
-           <input type="checkbox" />
-         </div>
-       </div>
-     </div>
-   </div>
+            <div>
+              <span>File Type</span>
+              <select name="type" id="type">
+                <option value="csv">CSV</option>
+                <option value="json">JSON</option>
+              </select>
+            </div>
+            <div>
+              <span>Character Encoding</span>
+              <select name="encoding-type" id="encoding-type">
+                <option name="utf-8" value="utf-8">UTF - 8</option>
+              </select>
+            </div>
+            <div>
+              <span>Delimiter</span>
+              <select name="delimiter" id="delimiter">
+                <option value="comma">Comma</option>
+                
+              </select>
+            </div>
+            <div>
+              <span>Has Header</span>
+              <input type="checkbox" />
+            </div>
+          </div>
+        </div>
+      </div>
 
    <div className="container-bottom">
      <div className="container-step-3">

@@ -19,7 +19,7 @@ input {
 .container-top {
   /* border: 1px solid black; */
   display: flex;
-  padding: 2% 4%;
+  padding: 1% 4%;
   
 }
 .title-top {
@@ -66,7 +66,7 @@ input {
 }
 
 .container-bottom {
-  padding: 2% 4%;
+  padding: 0.5% 4%;
 }
 
 .container-step-3 {
@@ -103,9 +103,15 @@ input {
   height: 90%;
   text-transform: capitalize;
 }
+.container-table-fields p {
+ 
+  cursor: pointer;
+}
 
 .selected {
-  background-color: blue;
+  background-color: rgb(101, 109, 110);
+  margin:2px 0;
+
 }
 
 .container-productsTable {
@@ -113,7 +119,7 @@ input {
   min-height: 500px;
 }
 .container-btn-action{
-  padding : 4%;
+  padding : 1% 4%;
   width: 100%;
   text-align: right;
 }
