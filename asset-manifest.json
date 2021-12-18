@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SmartServ-Task-1/static/css/main.81b06a38.css",
+    "main.js": "/SmartServ-Task-1/static/js/main.6b985f4a.js",
+    "static/js/787.a423396b.chunk.js": "/SmartServ-Task-1/static/js/787.a423396b.chunk.js",
+    "index.html": "/SmartServ-Task-1/index.html",
+    "main.81b06a38.css.map": "/SmartServ-Task-1/static/css/main.81b06a38.css.map",
+    "main.6b985f4a.js.map": "/SmartServ-Task-1/static/js/main.6b985f4a.js.map",
+    "787.a423396b.chunk.js.map": "/SmartServ-Task-1/static/js/787.a423396b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81b06a38.css",
+    "static/js/main.6b985f4a.js"
+  ]
+}
